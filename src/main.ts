@@ -1,5 +1,5 @@
 import { render } from "@rezact/rezact";
-import { Page } from "./HelloWorld";
+import App from "./App";
 
-const app = document.getElementById("app");
-render(app, Page);
+const appDiv = document.getElementById("app");
+render(appDiv, App);
