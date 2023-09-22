@@ -19,6 +19,10 @@ export default {
       polyfill: false,
     },
   },
+  esbuild: {
+    jsxFactory: "xCreateElement",
+    jsxFragment: "xFragment",
+  },
   plugins: [
     mdx({
       pragma: "r.xCreateElement",
